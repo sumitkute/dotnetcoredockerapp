@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  newdotcoreapp:
+    image: newdotcoreapp
+    build:
+      context: ./newdotcoreapp
+      dockerfile: Dockerfile
